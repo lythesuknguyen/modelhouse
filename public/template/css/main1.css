@@ -1,0 +1,54 @@
+
+
+#ResponsiveTable{
+	width: 100%;
+	border-collapse:  collapse;
+
+
+}
+/*#HeadRow {
+	background: #004C2E;
+	color: white;
+	font-weight: bold;
+}*/
+#ResponsiveTable td{
+	padding: 5px 5px;
+	border: 1px solid black;
+	text-align: left;
+	font-size: 14px;
+}
+@media screen and (max-width: 767px) {
+	#ResponsiveTable,
+	#ResponsiveTable tbody,
+	#ResponsiveTable tr,
+	#ResponsiveTable td{
+		display: block;
+	}
+	/*#HeadRow{
+		position: absolute;
+		left: -9999px;
+		top: -9999px;
+	}*/
+	#ResponsiveTable td{
+		border: none;
+		position: relative;
+		padding-left: 40%; /* 40 */
+		width: 100%;
+		overflow: hidden;
+		white-space: normal;
+		text-align: left;
+	}
+	#ResponsiveTable td:before{
+		position: absolute;;
+		top:5px;
+		left: 5px;
+		width: 300%;/* 40 */
+		padding-right: 10px;
+		white-space: nowrap;
+		text-align: left;
+		font-weight: bold;
+		font-size: 14px;
+		content: attr(tableHeadData);
+	}
+
+}

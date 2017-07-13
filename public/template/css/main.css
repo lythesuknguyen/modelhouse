@@ -1,0 +1,97 @@
+
+/*reset css*/
+* {
+
+padding: 0; margin: 0;
+}
+
+/* css body*/
+body {
+	background: #FFFFFF; line-height: 1.5; font-size: 62.5%; 
+	/*font-family: Arial,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Osaka,"メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;*/
+	font-family: "ヒラギノ角ゴ ProN W3","Hiragino Kaku Gothic ProN", sans-serif;
+
+}
+
+/* css wrapper*/
+#wrapper {
+	width: 100%; margin: 0 auto; font-size: 10px; 
+	text-align: center;
+
+}
+
+/* css header*/
+#header {
+	width: 100%; height: 100px; background-color: #EB612F;
+}
+
+/* css content*/
+#content {
+	width: 65%; height: 600px;
+	margin: 0 auto;
+}
+#content .nav-content {
+	width: 100%; height: 40px; background-color: #666; 
+}
+.form-register h2{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.form-register table {
+    border-collapse: collapse;
+}
+
+.form-register table tr:first-child {
+    border: 1px solid #D6D6D6;
+    height: 50px;
+}
+.form-register table tr:first-child td {
+	padding-left: 20px;
+}
+
+
+.form-register table {
+	width: 90%;
+	font-size: 13px;
+	margin: 0 auto;
+}
+
+
+.form-register tr,td {
+	padding: 5px;
+}
+.form-register input[type="text"] {
+	width: 240px; height: 20px;
+	border: 1px solid #D6D6D6;
+	padding-left: 10px;
+	font-size: 13px;
+}
+.form-register input[type="submit"] {
+	width: 200px; height: 40px; background-color: #EB612F; color: #FFFFFF;
+	font-weight: bold;
+	font-size: 15px;
+	border: 1px solid #BE481E;
+	float: center;
+cursor: pointer; cursor: hand;
+}
+.form-register textarea {
+	border: 1px solid #D6D6D6;
+	resize:none;
+}
+.form-register .txt-error {
+	color: #FF1717;
+	font-size: 11px;
+}
+.form-register .txt-note {
+	color: #5C5C5C;
+	font-size: 11px;
+}
+
+
+/* css footer*/
+#footer {
+	width: 100%; height: 100px; clear: both;
+	background-color: #EB612F;
+}
+
+
